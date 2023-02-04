@@ -6,3 +6,12 @@
 //
 
 import Foundation
+
+
+extension Date{
+    var toYYYYMMDD:String{
+        let formatter = DateFormatter()
+        formatter.dateFormat="YYYY-MM-DD"
+        return formatter.string(from: self)
+    }
+}
