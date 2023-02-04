@@ -99,9 +99,10 @@
 		F57627C4298E63A400F6BDD4 /* apod_ios */ = {
 			isa = PBXGroup;
 			children = (
+				F57627F6298E643800F6BDD4 /* ViewContorllers */,
+				F57627F5298E642900F6BDD4 /* Helpers */,
 				F57627C5298E63A400F6BDD4 /* AppDelegate.swift */,
 				F57627C7298E63A400F6BDD4 /* SceneDelegate.swift */,
-				F57627C9298E63A400F6BDD4 /* ViewController.swift */,
 				F57627CB298E63A400F6BDD4 /* Main.storyboard */,
 				F57627CE298E63A600F6BDD4 /* Assets.xcassets */,
 				F57627D0298E63A600F6BDD4 /* LaunchScreen.storyboard */,
@@ -125,6 +126,21 @@
 				F57627E8298E63A700F6BDD4 /* apod_iosUITestsLaunchTests.swift */,
 			);
 			path = apod_iosUITests;
+			sourceTree = "<group>";
+		};
+		F57627F5298E642900F6BDD4 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		F57627F6298E643800F6BDD4 /* ViewContorllers */ = {
+			isa = PBXGroup;
+			children = (
+				F57627C9298E63A400F6BDD4 /* ViewController.swift */,
+			);
+			path = ViewContorllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
